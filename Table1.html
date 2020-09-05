@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Tables</title>
+</head>
+<body>
+	<h1>HTML Tables</h1>
+	<table border="1">
+	<tr>
+		<td>Row 1, Column 1</td>
+		<td>Row 1, Column 2</td>
+	</tr>
+	<tr>
+		<td>Row 2, Column 1</td>
+		<td>Row 2, Column 2</td>
+	</tr>
+	</table>
+	<hr>
+	<h1>Table Heading</h1>
+	<table border = "1">
+ <tr>
+ 	<th>Name</th>
+ 	<th>Salary</th>
+ </tr>
+ <tr>
+ 	<td>Ramesh Raman</td>
+ 	<td>5000</td>
+ </tr>
+
+ <tr>
+ 	<td>Shabbir Hussain</td>
+ 	<td>7000</td>
+ </tr>
+</table>
+<hr>
+<h1>Cellpadding and Cellspacing Attribute</h1>
+<table border="1" cellspacing="5" cellpadding="5">
+	<tr>
+		<th>Name</th>
+		<th>Salary</th>
+	</tr>
+	<tr>
+		<td>Ramesh Raman</td>
+		<td>7000</td>
+	</tr>
+	<tr>
+		<td>Shabbir Hussain</td>
+		<td>7000</td>
+	</tr>
+</table>
+<hr>
+<h1>Colspan and Rowspan Attributes</h1>
+<table border="1">
+	<tr>
+		<th>Column 1</th>
+		<th>Column 2</th>
+		<th>Column 3</th>
+	</tr>
+	<tr>
+		<td rowspan="2">Row 1 Cell 1</td>
+		<td>Row 1 Cell 2</td>
+		<td>Row 1 Cell 3</td>
+	</tr>
+	<tr>
+		<td>Row 2 Cell 2</td>
+		<td>Row 2 Cell 3</td>
+	</tr>
+	<tr>
+		<td colspan="3">Row 3 Cell 1</td>
+	</tr>
+</table>
+<hr>
+<h1>Table Background</h1>
+<table border = "2" bordercolor = "blue" bgcolor = "yellow">
+ 	<tr>
+ 		<th>Column 1</th>
+ 		<th>Column 2</th>
+ 		<th>Column 3</th>
+ 	</tr>
+ <tr>
+ 	<td rowspan = "2">Row 1 Cell 1</td>
+ 	<td>Row 1 Cell 2</td>
+ 	<td>Row 1 Cell 3</td>
+ </tr>
+ <tr>
+ 	<td>Row 2 Cell 2</td>
+ 	<td>Row 2 Cell 3</td>
+ </tr>
+ <tr>
+ 	<td colspan = "3">Row 3 Cell 1</td>
+ </tr>
+</table>
+<hr>
+<h1>Table Background with Image</h1>
+<table border = "2" bordercolor = "green" background="/HTML/AI(2).jpg">
+ 	<tr>
+ 		<th>Column 1</th>
+ 		<th>Column 2</th>
+ 		<th>Column 3</th>
+ 	</tr>
+ <tr>
+ 	<td rowspan = "2">Row 1 Cell 1</td>
+ 	<td>Row 1 Cell 2</td><td>Row 1 Cell 3</td>
+ </tr>
+ <tr>
+ 	<td>Row 2 Cell 2</td>
+ 	<td>Row 2 Cell 3</td>
+ </tr>
+ <tr>
+ 	<td colspan = "3">Row 3 Cell 1</td>
+ </tr>
+ </table>
+<hr>
+<h1>Table Height & Width</h1>
+
+	<table border = "1" width = "400" height = "150">
+ <tr>
+ <td>Row 1, Column 1</td>
+ <td>Row 1, Column 2</td>
+ </tr>
+
+ <tr>
+ <td>Row 2, Column 1</td>
+ <td>Row 2, Column 2</td>
+ </tr>
+ </table>
+<hr>
+<h1>The Caption</h1>
+<table border = "1" width = "100%">
+ <caption><strong>This is the caption</strong></caption>
+
+ <tr>
+ 	<td>row 1, column 1</td>
+ 	<td>row 1, columnn 2</td>
+ </tr>
+
+ <tr>
+ 	<td>row 2, column 1</td>
+ 	<td>row 2, columnn 2</td>
+ </tr>
+ </table>
+ <hr>
+ <h1>Table Head Body & Foot</h1>
+ <table border = "1" width = "50%">
+ 	<thead>
+ 		<tr>
+		  <td colspan = "4" align="center">This is the head of the table</td>
+       </tr>
+   </thead>
+
+ 	<tfoot>
+ 		<tr>
+ 		  <td colspan = "4" align="center">This is the foot of the table</td>
+ 		</tr>
+ 	</tfoot>
+
+ 	<tbody>
+ 		<tr>
+ 		 <td>Cell 1</td>
+ 		 <td>Cell 2</td>
+		 <td>Cell 3</td>
+		 <td>Cell 4</td>
+	    </tr>
+ 	</tbody>
+ </table>
+ <hr>
+ <h1>Nested Table</h1>
+ <table border = "1" width = "100%">
+
+ 	<tr>
+ 	  <td>
+ <table border = "1" width = "100%">
+ 	<tr>
+ 	  <th>Name</th>
+      <th>Salary</th>
+    </tr>
+<tr>
+   <td>Ramesh Raman</td>
+   <td>5000</td>
+</tr>
+<tr>
+ <td>Shabbir Hussein</td>
+<td>7000</td>
+ </tr>
+ </table>
+ </td>
+ </tr>
+</table>
+<hr>
+</body>
+</html>
